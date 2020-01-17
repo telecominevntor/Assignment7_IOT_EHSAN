@@ -1,11 +1,9 @@
-pub mod judges{
-        pub mod justice{
-        pub fn law(lawyer:String,pending_cases1:i32){
-
-            println!(" ");
-            println!(" (lib.rs) {} : {}",lawyer,pending_cases1);
-            println!(" ");
-
-        }
-    }    
+pub mod legislative{
+  pub mod majority_leader{
+    pub fn law_enforcement(data3:String,high_courts:i32){
+        println!(" ");
+        println!("library Package function says: {} and total High Courts =  {}",data3,high_courts);
+        println!(" ");
+    }
+  }
 }
